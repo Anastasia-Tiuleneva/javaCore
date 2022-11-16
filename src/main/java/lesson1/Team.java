@@ -167,9 +167,6 @@ public class Team {
     }
 
 
-
-
-
     public Team(String name, Animal player1, Animal player2, Animal player3, Animal player4) {
         this.name = name;
         this.player1 = player1;

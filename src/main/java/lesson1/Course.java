@@ -1,6 +1,10 @@
 package lesson1;
 
 public class Course {
+    private int jumping;
+    private int runing;
+
+    private int swiming;
     public int getJumping() {
         return jumping;
     }
@@ -25,10 +29,7 @@ public class Course {
         this.swiming = swiming;
     }
 
-    private int jumping;
-    private int runing;
 
-    private int swiming;
 
 
 

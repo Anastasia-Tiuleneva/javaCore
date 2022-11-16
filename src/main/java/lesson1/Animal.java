@@ -2,8 +2,10 @@ package lesson1;
 
 public abstract class Animal  {
 
-
     private String nikname;
+    private int jump;
+    private int  run;
+    private int  swim;
 
     public String getNikname() {
         return nikname;
@@ -36,12 +38,6 @@ public abstract class Animal  {
     public void setSwim(int swim) {
         this.swim = swim;
     }
-
-    private int jump;
-    private int  run;
-    private int  swim;
-
-
 
     public Animal (String  nikname, int  jump, int  run, int  swim) {
         this.nikname = nikname;
