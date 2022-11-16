@@ -5,7 +5,6 @@ public class Fish extends Animal {
         super(nikname, jump, run, swim);
     }
 
-
     public String toString(){
         return "Рыба: " + getNikname() + ", " + "прыгает: " + getJump() +  " раз, " + "бегает: " + getRun() + " м, " + "плавает "+ getSwim() + " м";
     }
