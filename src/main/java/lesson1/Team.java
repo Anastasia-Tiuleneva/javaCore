@@ -178,8 +178,6 @@ public class Team {
         this.player4 = player4;
     }
 
-
-
     public void teamInfo() {
         System.out.println("Команду" + " " + getName() + " " + "представляют следующие участники:");
         System.out.println(player1);

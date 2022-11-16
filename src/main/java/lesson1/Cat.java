@@ -5,6 +5,7 @@ public class Cat extends Animal{
         super(nikname, jump, run, swim );
     }
 
+
     @Override
     public String toString() {
         return "Котик: " + getNikname() + ", " + "прыгает: " + getJump() +  " раз, " + "бегает: " + getRun() + " м, " + "плавает "+ getSwim() + " м";

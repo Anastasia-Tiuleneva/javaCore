@@ -11,9 +11,6 @@ public class Main {
         course1.doIt(team1);
         team1.showResults();
 
-
-
-
     }
 
 

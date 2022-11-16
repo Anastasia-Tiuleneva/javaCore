@@ -44,6 +44,7 @@ public class Course {
         System.out.println("Полоса препядствий состоит из:" + " " + runing + ","  + " " + jumping+ ","  + " " + swiming);
     }
 
+
    public void doIt(Team x) {
         if (x.getPlayer1().getJump() >= getJumping()){
             x.setResultJumpPlayer1("Успешно");
