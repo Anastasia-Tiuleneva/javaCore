@@ -1,4 +1,4 @@
-package lessonOne.lesson1;
+package lesson1;
 
 public abstract class Animal  {
 
