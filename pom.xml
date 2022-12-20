@@ -7,6 +7,21 @@
     <groupId>org.example</groupId>
     <artifactId>javaCore</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <dependencies>
+        <dependency>
+            <groupId>org.jetbrains</groupId>
+            <artifactId>annotations</artifactId>
+            <version>RELEASE</version>
+            <scope>compile</scope>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/com.squareup.okhttp3/okhttp -->
+        <dependency>
+            <groupId>com.squareup.okhttp3</groupId>
+            <artifactId>okhttp</artifactId>
+            <version>4.8.1</version>
+        </dependency>
+
+    </dependencies>
 
     <properties>
         <maven.compiler.source>18</maven.compiler.source>
